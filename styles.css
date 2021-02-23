@@ -1,0 +1,50 @@
+/* CSS Document */
+
+body{
+	background-color: azure;
+}
+
+button{
+	font-size: 30px;
+	background-color:paleturquoise
+}
+h2,h1{
+	color:darkslategray;
+}
+#signup{
+	background-color:slategray;
+	color:aliceblue;
+}
+
+span{
+	color:mediumturquoise
+}
+.tag{
+	background-color:cornflowerblue;
+	color:aliceblue;
+	font-size:16px;
+	padding:3px;
+}
+.post a{
+	color:darkcyan;
+	text-decoration: none;
+	font-weight:700;
+}
+footer a{
+	color:royalblue;
+}
+input[type="password"]{
+	color:orangered;
+}
+button:hover {
+	background-color:lightblue;
+}
+.post a:hover{
+	text-decoration: underline;
+}
+button:active{
+	background-color:cadetblue;
+}
+.post:nth-of-type(2n){
+	background-color:deeppink;
+}
